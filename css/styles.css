@@ -85,9 +85,9 @@ select:-webkit-autofill:focus {
 
 .container {
 	width: 100%;
-	max-width: 452px;
-	padding-left: 20px;
-	padding-right: 20px;
+	max-width: 460px;
+	padding-left: 24px;
+	padding-right: 24px;
 	margin-left: auto;
 	margin-right: auto;
 	display: flex;
@@ -107,4 +107,78 @@ select:-webkit-autofill:focus {
 	only screen and (min-device-pixel-ratio: 2),
 	only screen and (min-resolution: 192dpi),
 	only screen and (min-resolution: 2dppx) {
+}
+
+.container {
+	height: 100%;
+}
+.rating {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	padding: 28.5px 24px;
+	background: linear-gradient(#232a34 0%, #181e27 100%);
+	border-radius: 15px;
+	/* align-items: flex-start; */
+}
+.rating-img {
+	display: block;
+	width: 40px;
+	height: 40px;
+}
+.rating__content {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+.rating-heading {
+	margin: 0;
+	font-size: 1.72rem;
+	line-height: 30px;
+	color: var(--white-color);
+}
+.rating-text {
+	padding: 0;
+}
+.rating__buttons {
+	display: flex;
+	justify-content: space-between;
+}
+.rating__btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 42px;
+	height: 42px;
+	border-radius: 50%;
+	background-color: var(--rating-bg);
+	font-weight: bold;
+	color: var(--text-color);
+	text-decoration: none;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.rating__btn:hover {
+	background-color: var(--white-color);
+	color: #262e38;
+}
+
+/* Submit button */
+.rating__submit {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: var(--body-bg);
+	font-weight: bold;
+	line-height: 18px;
+	letter-spacing: 1.87px;
+	padding: 15px;
+	background-color: var(--accent-color);
+	border-radius: 22.5px;
+	cursor: pointer;
+	text-align: center;
+}
+
+.rating__submit:hover {
+  background-color: var(--white-color);
 }
