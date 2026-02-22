@@ -57,6 +57,9 @@ img {
 	width: 1px;
 }
 
+
+
+
 /* AUTOFILL COLORS
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
@@ -222,4 +225,9 @@ select:-webkit-autofill:focus {
 		padding: 12.5px;
 		font-weight: 600;
 	}
+}
+
+.btn-active {
+	background-color: var(--accent-color);
+	color: var(--rating-bg);
 }
