@@ -6,7 +6,7 @@
 
 :root {
 	--body-bg: #131518;
-	--linear-bg: linear-gradient(to bottom #232a34 0%, #181e27 100%);
+	--linear-bg: linear-gradient(#232a34 0%, #181e27 100%);
 	--text-color: #969fad;
 	--white-color: #fff;
 	--rating-bg: #262e38;
